@@ -5,33 +5,35 @@ function About() {
   return (
     <div className={styles['about']}>
       <div className={styles['div2']}>
-        <a className={styles['overview']} href="#">
-          Overview
-        </a>
-        <p>|</p>
-        <a className={styles['aboutt']} href="#">
-          About
-        </a>
-        <p>|</p>
-        <a className={styles['products']} href="#">
-          Products
-        </a>
-        <p>|</p>
-        <a className={styles['posts']} href="#">
-          Posts
-        </a>
-        <p>|</p>
-        <a className={styles['jobs']} href="#">
-          Jobs
-        </a>
-        <p>|</p>
-        <a className={styles['people']} href="#">
-          People
-        </a>
-        <p>|</p>
-        <a className={styles['videos']} href="#">
-          Videos
-        </a>
+        <div className={styles['new_div']}>
+          <a className={styles['overview']} href="#">
+            Overview
+          </a>
+          <p>|</p>
+          <a className={styles['aboutt']} href="#">
+            About
+          </a>
+          <p>|</p>
+          <a className={styles['products']} href="#">
+            Products
+          </a>
+          <p>|</p>
+          <a className={styles['posts']} href="#">
+            Posts
+          </a>
+          <p>|</p>
+          <a className={styles['jobs']} href="#">
+            Jobs
+          </a>
+          <p>|</p>
+          <a className={styles['people']} href="#">
+            People
+          </a>
+          <p>|</p>
+          <a className={styles['videos']} href="#">
+            Videos
+          </a>
+        </div>
       </div>
       <div className={styles['div3']}>
         <p className={styles['_about']}>About</p>
@@ -55,10 +57,10 @@ function About() {
             <li className={styles['worth']}>US$ 50M</li>
           </ul>
         </div>
+        <a className={styles['see_details']} href="#">
+          See all details
+        </a>
       </div>
-      <a className={styles['see_details']} href="#">
-        See all details
-      </a>
     </div>
   );
 }

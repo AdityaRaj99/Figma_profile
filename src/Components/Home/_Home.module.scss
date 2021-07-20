@@ -1,13 +1,15 @@
 .main_div {
   background-color: #dbdbd9;
   display: flex;
-  flex-wrap: wrap;
+  width: 100vw;
+  flex-direction: column;
 }
 
 .div2 {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 40px;
+  flex: 0.7;
+  // margin-left: 119px;
   width: 750px;
   height: 653px;
 }
@@ -15,12 +17,19 @@
 .div3 {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 980px;
-  margin-top: -630px;
-  height: 630px;
+  flex: 0.3;
+  margin-top: 20px;
+  // margin-left: 926px;
+  // margin-top: -633px;
+  height: 633px;
   width: 403px;
 }
 
+.upper_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 1025px) and (max-width: 1280px) {
   .main_div {
     display: grid;
