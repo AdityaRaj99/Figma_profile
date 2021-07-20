@@ -42,14 +42,16 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .sidepanel {
-    width: 100%;
-    height: 100%;
     display: grid;
+    padding: 6px;
     .ul1 {
       .company_img {
         height: 35px;
         border: 1px solid white;
         border-radius: 25px;
+      }
+      .p {
+        padding-bottom: 22px;
       }
     }
   }
@@ -87,5 +89,6 @@
 @media (min-width: 1025px) and (max-width: 1280px) {
   .sidepanel {
     height: 100%;
+    padding: 6px;
   }
 }
