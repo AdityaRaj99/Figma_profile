@@ -1,0 +1,69 @@
+.Nav {
+  width: 100%;
+}
+
+.Linkedin {
+  font-size: 20px;
+  margin-right: -25px;
+}
+.Apps_two_tone {
+  padding: 2px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.person {
+  background: white;
+  height: 23.5px;
+  border-radius: 3px;
+}
+.Upgrade_to_premium {
+  background-color: #d6d12f;
+  border: none;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: small;
+  padding: 8px;
+  margin-right: 35px;
+}
+
+@mixin anchorProp {
+  position: absolute;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.below_nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding-top: 8px;
+  width: 100%;
+
+  p {
+    a {
+      @include anchorProp();
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Nav {
+    width: 100%;
+  }
+  .below_nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 786px) {
+  .Nav {
+    width: 100%;
+  }
+  .below_nav {
+    width: 100%;
+  }
+  .Linkedin {
+    margin: 0px;
+  }
+}

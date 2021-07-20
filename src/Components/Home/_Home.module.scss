@@ -1,0 +1,120 @@
+.main_div {
+  background-color: #dbdbd9;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  // margin-left: 110px;
+  margin-left: 40px;
+  width: 750px;
+  height: 653px;
+}
+
+.div3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 980px;
+  margin-top: -630px;
+  height: 630px;
+  width: 403px;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .main_div {
+    display: grid;
+  }
+  .div2 {
+    display: grid;
+    margin-left: 40px;
+    height: 650px;
+  }
+  .div3 {
+    display: grid;
+    margin-left: 632px;
+  }
+  .upper_div {
+    width: 100%;
+    background-color: #dbdbd9;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main_div {
+    display: grid;
+    width: 100%;
+  }
+  .upper_div {
+    width: 100%;
+    background-color: #dbdbd9;
+  }
+  .div2 {
+    display: grid;
+    width: 100%;
+    margin: 0px;
+  }
+  .div3 {
+    display: grid;
+    margin: 0px;
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .main_div {
+    display: grid;
+  }
+  .upper_div {
+    display: grid;
+    width: 100%;
+    background-color: #dbdbd9;
+  }
+  .div2 {
+    display: grid;
+    margin-left: 22px;
+  }
+  .div3 {
+    display: grid;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .main_div {
+    display: grid;
+    width: 100%;
+    background-color: #dbdbd9;
+  }
+  .upper_div {
+    display: grid;
+    width: 100%;
+    background-color: #dbdbd9;
+  }
+  .div2 {
+    display: grid;
+    margin-left: 22px;
+  }
+  .div3 {
+    width: 100%;
+    display: grid;
+  }
+}
+@media (max-width: 786px) {
+  .main_div {
+    width: 100%;
+  }
+  .upper_div {
+    width: 100%;
+  }
+  .upper_div {
+    display: grid;
+    width: 100%;
+    background-color: #dbdbd9;
+  }
+  .div2 {
+    width: 100%;
+    margin: 0px;
+  }
+  .div3 {
+    width: 100%;
+    margin: 0px;
+  }
+}
