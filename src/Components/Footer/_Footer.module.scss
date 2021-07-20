@@ -28,11 +28,10 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer {
-    width: 100%;
     .ul1 {
       padding-top: 20px;
       column-gap: 20px;
-      row-gap: 5px;
+      row-gap: 0px;
       padding-top: 20px;
     }
     .ul2 {

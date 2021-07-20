@@ -1,5 +1,5 @@
 .main_div {
-  background-color: #dbdbd9;
+  background-color: #e8eded;
   display: flex;
   width: 100vw;
   flex-direction: column;
@@ -8,7 +8,7 @@
 .div2 {
   display: flex;
   flex-wrap: wrap;
-  flex: 0.7;
+  flex: 0.6;
   // margin-left: 119px;
   width: 750px;
   height: 653px;
@@ -36,16 +36,16 @@
   }
   .div2 {
     display: grid;
-    margin-left: 40px;
-    height: 650px;
+    // margin-left: 40px;
+    // height: 650px;
   }
   .div3 {
     display: grid;
-    margin-left: 632px;
+    // margin-left: 632px;
   }
   .upper_div {
     width: 100%;
-    background-color: #dbdbd9;
+    background-color: #e8eded;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -55,7 +55,8 @@
   }
   .upper_div {
     width: 100%;
-    background-color: #dbdbd9;
+    background-color: #e8eded;
+    gap: 33px;
   }
   .div2 {
     display: grid;
@@ -64,7 +65,7 @@
   }
   .div3 {
     display: grid;
-    margin: 0px;
+    // margin: 0px;
     width: 100%;
   }
 }
@@ -75,7 +76,7 @@
   .upper_div {
     display: grid;
     width: 100%;
-    background-color: #dbdbd9;
+    background-color: #e8eded;
   }
   .div2 {
     display: grid;
@@ -89,12 +90,12 @@
   .main_div {
     display: grid;
     width: 100%;
-    background-color: #dbdbd9;
+    background-color: #e8eded;
   }
   .upper_div {
     display: grid;
     width: 100%;
-    background-color: #dbdbd9;
+    background-color: #e8eded;
   }
   .div2 {
     display: grid;
@@ -115,7 +116,7 @@
   .upper_div {
     display: grid;
     width: 100%;
-    background-color: #dbdbd9;
+    background-color: #e8eded;
   }
   .div2 {
     width: 100%;
